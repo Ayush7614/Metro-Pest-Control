@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!------------------- FAVICON -------------------->
+  <link rel="shortcut icon" type="image/jpg" href="assets/images/logo.png" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!--Font Aswesome-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!--Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <title>Metro Pest Control</title>
+  <style>
+    .img-sz {
+      width: 10rem;
+      height: 8rem;
+    }
+  </style>
+</head>
+
+<body id="resource">
+  <!--Navbar Section -->
+  <nav class="nav p-3">
+    <a class="nav-link active" aria-current="page" href="./index.html" style="display: block; max-width: 100px; max-height: 100px"><img
+        id="quickLearnLogoImg" src="./assets/images/Logo 2.png" alt="logo_img" /></a>
+    <a class="nav-link btn" href="./index.html" id="navResourceBtn">Home</a>
+    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+        id="darkSwitch2" class="fas fa-moon"></i></span>
+  </nav>
+  <div class="container-fluid my-3" id="resourceContainer">
+    <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 m-3 mx-4">
+      <h4 id="categoryText">Services</h4>
+      <hr class="catHr" />
+      <ul id="categoryList" class="nav nav-pills flex-column mb-auto">
+        <li>
+          <button class="link-dark contribution-btn" id="contributeBtn">Residential Services</button>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style">Home sanitization & Disinfections</button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="programming">
+              Home Sanitation
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Full Home Cleaning
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Bathroom Cleaning
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Kitchen Cleaning            
+            </button>           
+            <button class="btn select-category-btn" value="programming">
+              Sofa Cleaning
+            </button>
+           <button class="btn select-category-btn" value="programming">
+            Chair & Carpet Cleaning            
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Combo Services
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Steam Sanitization Services            
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Fridge Cleaning            
+            </button>
+            <button class="btn select-category-btn" value="programming">
+              Car Cleaning            
+            </button>
+          </div>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style">Commericial pest Control Services</button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="web">
+              Offices 
+            </button>
+            <button class="btn select-category-btn" value="web">
+              Hotel 
+            </button>
+            <button class="btn select-category-btn" value="web">
+              Hospital 
+            </button>
+            <button class="btn select-category-btn" value="web">
+              Residentail Society 
+            </button>
+            <button class="btn select-category-btn" value="web">
+              Warehouse Pest control services & many more            
+            </button>
+          </div>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style">Enquiry</button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="android">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="android">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="android">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="android">
+              xxxxxx
+            </button>
+          </div>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style">Career</button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="design">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="design">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="design">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="design">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="design">
+              xxxxxx
+            </button>
+            <button class="btn select-category-btn" value="design">
+              xxxxxx            
+           </button>
+            <button class="btn select-category-btn" value="design">
+              xxxxxx
+            </button>
+          </div>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style">
+            blog
+          </button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="ai">xxxxxx</button>
+            <button class="btn select-category-btn" value="ai">xxxxxx</button>
+            <button class="btn select-category-btn" value="ai">
+            </button>
+            <button class="btn select-category-btn" value="ai">
+            </button>
+          </div>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style">Covid Disinfections</button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="data_science">
+              xxxxxx            
+            </button>
+            <button class="btn select-category-btn" value="data_science">
+             xxxxxx            
+           </button>
+    
+          </div>
+        </li>
+        <li class="category">
+          <button class="link-dark btn-style"> TERMS AND CONDITIONS</button>
+          <div class="select-option">
+            <button class="btn select-category-btn" value="Blockchain">
+             xxxxxx
+            </button>
+          </div>
+        </li>
+      
+      </ul>
+      <hr class="catHr" />
+    </div>
+    <!-- Sidebar Ends -->
+    <div class="container mt-3" id="contributionGuideline">
+      <h2 id="contriHead">Termites Pest Control Services</h2>     
+
+     <li class="font">
+        Termites are a group of insect that mostly feed on dead plant materials, with the ability to digest cellulose. Subterranean termites, the most destructive wooden pest in the world, 
+    </li>
+
+     
+      <li class="font">
+        build their colonies in the soil and usually work their way above ground to reach wood or any other cellulose source. In search for food, subterranean termites will forage into homes       </li>
+      <li class="font">from below the ground level right up to the highest point of the roof thrust. Over time, termite damage can become significant on door frames, kitchen cabinets, staircase and wooden flooring..</li>
+      <li class="font">
+        METRO Pest Control Services termite expert team ensures that you and your assets are protected from the harms caused by termites. Here are some reasons why you should choose our Post Construction Termite Treatment:         repository and make a pull request.
+      </li>
+      <li class="font">We use expert surveying and treatment techniques, so that you get the right services.
+        Our treatment methods are safe and approved.We provide long term protection plans based on your needs.We take utmost care to ensure that your assets are protected
+        </li>
+      <li class="font">DRILL-Holes of Diameter of 1.2cm are drilled in the walls of the house at the skirting level – 1-foot distance</li>
+      <li class="font">FILL-TERMIN-8 solution is filled in these holes which control the termites inside the house as well as the colony</li>
+      <li class="font">SEAL-Holes are then sealed with white cement</li>
+      <li class="font">3-Level Covid Suraksha Kavach, Chemical is safe for kids, elderly people & pets
+      </li>
+       </ol>
+      </div>
+    
+    <div class="container mt-3" id="resourceBox">
+      <!--Beginner Resource Box-->
+      <h4 class="resource-heading">Beginner</h4>
+      <div class="row" id="beginnerResourceBox"></div>
+      <!--Intermediate Resource Box -->
+      <h4 class="resource-heading">Intermediate</h4>
+      <div class="row mt-2" id="intermediateResourceBox"></div>
+      <!--Advanced Resource Box -->
+      <h4 class="resource-heading">Advanced</h4>
+      <div class="row mt-2" id="advancedResourceBox"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer d-flex flex-coloumn justify-content-center">
+      Copyright © 2022 Metro Pest Control Services | Powered by Metro Pest Control Services</a>
+      <a href="" classname=" text-black github-footer" rel="noopener noreferrer"
+        target="_blank">
+      </a>
+    </div>
+    <img src="./assets/images/index.png" style="display: block; width: 200px; margin: 15px auto"
+    classname="m-5 img-logo" alt="pest_control" />
+  </footer>
+  <!-- Footer Section Ends -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/getResource.js"></script>
+  <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
