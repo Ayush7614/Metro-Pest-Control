@@ -247,9 +247,21 @@ html {
   font-size: 1.5rem;
   text-align: center;
 }
-#resourceContainer {
-  display: flex;
+
+@media only screen and (max-width: 768px) {
+  #resourceContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+@media only screen and (min-width: 768px) {
+  #resourceContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 /* Initially for Contribution Guidlines */
 #resourceBox {
   display: none;
@@ -302,6 +314,20 @@ html {
 
 textarea.contact-input-tags {
   border-radius: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #contact {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 #contactBtn {
